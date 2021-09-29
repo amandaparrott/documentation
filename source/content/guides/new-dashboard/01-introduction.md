@@ -12,7 +12,7 @@ anchorid: new-dashboard
 editpath: new-dashboard/01-introduction.md
 ---
 
-The new Pantheon Dashboard is WebOps in a single, fast Workspace. Easily visualize and manage sites, users, traffic, metrics, visual regression testing (VRT), and everything else to keep your developer experience smooth and uneventful.
+New Pantheon Dashboard is WebOps in a single, fast Workspace. Easily visualize and manage sites, users, traffic, metrics, visual regression testing (VRT), and everything else to keep your developer experience smooth and uneventful.
 
 
 ## Get Access
