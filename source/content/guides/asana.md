@@ -21,9 +21,8 @@ Be sure that you:
 - [Generate a Machine Token](https://dashboard.pantheon.io/machine-token/create) from **User Dashboard** > **Account** > **Machine Tokens**, then authenticate Terminus:
 
         terminus auth:login --machine-token=‹machine-token›
-- Install the [Terminus Secrets Plugin](https://github.com/pantheon-systems/terminus-secrets-plugin):
+- Install the [Terminus Secrets Plugin](https://github.com/pantheon-systems/terminus-secrets-plugin) following the [Terminus documentation](/terminus/plugins)
 
-        curl https://github.com/pantheon-systems/terminus-secrets-plugin/archive/1.x.tar.gz -L | tar -C ~/.terminus/plugins -xvz
 ## Create a Machine User in Asana
 Start by creating a new machine user in Asana. This user is referred to as a "machine user" because the account is used to automatically create comments out of commit messages on Pantheon using a PHP script.
 

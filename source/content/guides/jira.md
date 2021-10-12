@@ -24,11 +24,7 @@ Be sure that you:
   terminus auth:login --machine-token=‹machine-token›
   ```
 
-- Install the [Terminus Secrets Plugin](https://github.com/pantheon-systems/terminus-secrets-plugin):
-
-  ```bash
-  curl https://github.com/pantheon-systems/terminus-secrets-plugin/archive/1.x.tar.gz -L | tar -C ~/.terminus/plugins -xvz
-  ```
+- Install the [Terminus Secrets Plugin](https://github.com/pantheon-systems/terminus-secrets-plugin) following the [Terminus documentation](/terminus/plugins)
 
 ## Create a Machine User in Atlassian
 Start by creating a new machine user in your Atlassian Cloud instance. This user is referred to as a "machine user" because the account is used to automatically create comments out of commit messages on Pantheon using a PHP script.

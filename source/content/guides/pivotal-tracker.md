@@ -20,11 +20,7 @@ Be sure to:
 - Have a Drupal or WordPress site on Pantheon, with a local clone of the repository.
 - [Install Terminus](/terminus/install)
 
-- Install the [Terminus Secrets Plugin](https://github.com/pantheon-systems/terminus-secrets-plugin):
-
-  ```bash{promptUser: user}
-  curl https://github.com/pantheon-systems/terminus-secrets-plugin/archive/1.x.tar.gz -L | tar -C ~/.terminus/plugins -xvz
-  ```
+- Install the [Terminus Secrets Plugin](https://github.com/pantheon-systems/terminus-secrets-plugin) following the [Terminus documentation](/terminus/plugins)
 
 ## Create a Machine User in Pivotal Tracker
 

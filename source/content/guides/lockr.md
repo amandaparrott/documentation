@@ -21,7 +21,7 @@ By combining a simple-to-use developer interface with a managed scalable cloud k
 
 [The Lockr Terminus plugin](https://github.com/lockr/lockr-terminus) allows you to install all necessary components, register the site with Lockr, and patch all relevant plugins/modules running on your site with a single [Terminus](/terminus) command. To enable the Terminus plugin, complete these steps in your local environment:
 
-1. Clone [the Lockr Terminus plugin](https://github.com/lockr/lockr-terminus) into the `~/terminus/plugins` directory on your local environment.
+1. Install the [the Lockr Terminus plugin](https://github.com/lockr/lockr-terminus) following the [Terminus documentation](/terminus/plugins)
 
 1. Log in with Terminus.
 
