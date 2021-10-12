@@ -27,13 +27,7 @@ Be sure that you:
 
 Terminus provides advanced interaction with the platform and allows us to run Drush commands remotely. Terminus also opens the door to automating parts of your workflow by combining multiple operations. For more information about Terminus, see our [Terminus Manual](/terminus).
 
-1. Install Terminus in the `$HOME/terminus` directory:
-
-  ```bash{promptUser: user}
-  mkdir $HOME/terminus
-  cd $HOME/terminus
-  curl -O https://raw.githubusercontent.com/pantheon-systems/terminus-installer/master/builds/installer.phar && php installer.phar install
-  ```
+1. [Install Terminus](/terminus/install)
 
 1. [Generate a Machine Token](https://dashboard.pantheon.io/login?destination=%2Fuser#account/tokens/create/terminus/) in the Pantheon dashboard by clicking **User Dashboard** > **Account** > **Machine Tokens**. Use the Machine Token to authenticate Terminus:
 

@@ -24,13 +24,7 @@ Be sure that you:
 ## Install and Authenticate Terminus
 Terminus provides advanced interaction with the platform and allows us to run WP-CLI commands remotely. Terminus also opens the door to automating parts of your workflow by combining multiple operations. For more information about Terminus itself, see our [Terminus Manual](/terminus).
 
-1. Install Terminus within the `$HOME/terminus` directory:
-
-  ```bash
-  mkdir $HOME/terminus
-  cd $HOME/terminus
-  curl -O https://raw.githubusercontent.com/pantheon-systems/terminus-installer/master/builds/installer.phar && php installer.phar install
-  ```
+1. [Install Terminus](/terminus/install)
 
 2. [Generate a Machine Token](https://dashboard.pantheon.io/login?destination=%2Fuser#account/tokens/create/terminus/) from within **User Dashboard** > **Account** > **Machine Tokens**. Then use it to authenticate Terminus:
 

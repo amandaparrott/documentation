@@ -16,9 +16,7 @@ In this guide, we'll use a Trello instance with a site on Pantheon. When changes
 Be sure that you:
 
 - Have a Drupal or WordPress site on Pantheon
-- Install [Terminus](/terminus):
-
-        curl -O https://raw.githubusercontent.com/pantheon-systems/terminus-installer/master/builds/installer.phar && php installer.phar install
+- [Install Terminus](/terminus/install)
 - [Generate a Machine Token](https://dashboard.pantheon.io/machine-token/create) from **User Dashboard** > **Account** > **Machine Tokens**, then authenticate Terminus:
 
         terminus auth:login --machine-token=‹machine-token›

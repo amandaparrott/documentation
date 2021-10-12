@@ -167,11 +167,7 @@ Perhaps the most powerful way to leverage the capabilities of on-server developm
 
 In order to run WP-CLI or Drush commands on Pantheon's development environments, you'll need use our very own command line tool, Terminus:
 
-1. Install [Terminus](/terminus):
-
-  ```bash{promptUser: user}
-  curl -O https://raw.githubusercontent.com/pantheon-systems/terminus-installer/master/builds/installer.phar && php installer.phar install
-  ```
+1. [Install Terminus](/terminus/install)
 
 1. [Generate a Machine Token](https://dashboard.pantheon.io/machine-token/create) from **User Dashboard** > **Account** > **Machine Tokens**, then authenticate Terminus:
 

@@ -26,11 +26,7 @@ Adjust placeholders in code snippets as needed throughout this guide. This inclu
 
 Using [Terminus](/terminus) is our recommended way to install a WordPress Site Network.
 
-1. Install the most recent release of Terminus:
-
-  ```bash{promptUser: user}
-  curl -O https://raw.githubusercontent.com/pantheon-systems/terminus-installer/master/builds/installer.phar && php installer.phar install
-  ```
+1. [Install Terminus](/terminus/install)
 
 1. [Generate a Machine Token](https://dashboard.pantheon.io/machine-token/create), then authenticate Terminus:
 

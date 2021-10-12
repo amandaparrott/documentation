@@ -14,7 +14,7 @@ This guide is unmaintained. For Windows 10 users, we recommend using the [Window
 
 If you do not have access to a Mac or Linux environment, you can install [Cygwin](https://cygwin.com/) to perform tasks typically not possible in Windows, such as:
 
-* Installing and using [Terminus, the Pantheon command line interface (CLI)](https://github.com/pantheon-systems/cli)
+* Installing and using [Terminus, the Pantheon command line interface (CLI)](https://github.com/pantheon-systems/terminus)
 
 ## Install Cygwin
 
