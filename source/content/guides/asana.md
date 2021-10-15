@@ -21,7 +21,7 @@ Be sure that you:
 - [Generate a Machine Token](https://dashboard.pantheon.io/machine-token/create) from **User Dashboard** > **Account** > **Machine Tokens**, then authenticate Terminus:
 
         terminus auth:login --machine-token=‹machine-token›
-- Install the [Terminus Secrets Plugin](https://github.com/pantheon-systems/terminus-secrets-plugin) following the [Terminus documentation](/terminus/plugins)
+- Use the [Terminus documentation](/terminus/plugins) to install the [Terminus Secrets Plugin](https://github.com/pantheon-systems/terminus-secrets-plugin) 
 
 ## Create a Machine User in Asana
 Start by creating a new machine user in Asana. This user is referred to as a "machine user" because the account is used to automatically create comments out of commit messages on Pantheon using a PHP script.
@@ -30,31 +30,31 @@ Start by creating a new machine user in Asana. This user is referred to as a "ma
 
    ![Add a user](../../images/integrations/asana/new-user.png)
 
-2. Enter a name and email address for the machine user, which acts as the intermediary between Asana and the Pantheon Site Dashboard. Then click **Send Invite**.
+1. Enter a name and email address for the machine user, which acts as the intermediary between Asana and the Pantheon Site Dashboard. Then click **Send Invite**.
 
   We suggest naming machine users relative to their function, in this example we name our new user `Automation User`. The email needs to be an account you have access to:
 
    ![Create an automation user](../../images/integrations/asana/new-user-add.png)
 
-3. Check the address used in the last step for an email from Asana. Click the **Accept Invite** button and follow prompts to set the machine user's password. You should be logged in as the machine user.
+1. Check the address used in the last step for an email from Asana. Click the **Accept Invite** button and follow prompts to set the machine user's password. You should be logged in as the machine user.
 
-4. Click on your profile in the top right, and select **My Profile Settings**:
+1. Click on your profile in the top right, and select **My Profile Settings**:
 
     ![My profile settings](../../images/integrations/asana/my-profile-settings.png)
 
 
-5. Select **Apps**, then **Manage Developer Apps**:
+1. Select **Apps**, then **Manage Developer Apps**:
 
     ![Apps](../../images/integrations/asana/apps.png)
 
-6. Scroll down to **Personal Access Tokens**, then click **+ Create New Personal Access Token**:
+1. Scroll down to **Personal Access Tokens**, then click **+ Create New Personal Access Token**:
 
     ![Create a token](../../images/integrations/asana/access-token.png)
 
-6. Give the token a name which denotes it's purpose and save the string generated for the next steps.
+1. Give the token a name which denotes it's purpose and save the string generated for the next steps.
 
 ## Securely Store User Credentials on Pantheon
-Next, we need to provide Pantheon with the credentials for our new machine user. We'll securely store these values in the [private path](/private-paths/#private-path-for-files) of Pantheon's filesystem.
+Next, provide Pantheon with the credentials for a new machine user. You can securely securely store these values in the [private path](/private-paths/#private-path-for-files) of Pantheon's filesystem.
 
 We use the filesystem private path in this section because we don't want to track sensitive data like passwords in the codebase with git.
 
